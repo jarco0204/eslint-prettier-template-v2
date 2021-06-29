@@ -1,0 +1,23 @@
+{
+    "name": "skeleton-js-tooling",
+    "version": "1.0.0",
+    "description": "Node project that sets up Prettier and ESLint",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write \"src/**/*.{js}\"",
+        "lint": "eslint --quiet \"src/**/*.{js}\""
+    },
+    "keywords": [
+        "node",
+        "prettier",
+        "eslint"
+    ],
+    "author": "Johan Arcos Mendez",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^7.29.0",
+        "eslint-config-prettier": "^8.3.0",
+        "prettier": "^2.3.2"
+    }
+}
